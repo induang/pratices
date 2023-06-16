@@ -5,7 +5,13 @@ import BinData from "../pages/BinData";
 import DragNDrop from "../pages/DragNDrop";
 import Editor from "../pages/Editor";
 import FormEvent from "../pages/FormEvent";
+import ChatRoom from "../pages/ReactConcepts/ChatRoom";
+import RefTime from "../pages/ReactConcepts/RefTime";
 import TabIndex from "../pages/TabIndex";
+import Flex from "../pages/flex";
+import Grid from "../pages/grid";
+import Float from "../pages/float";
+import TwoColumn from "../pages/2column";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +38,30 @@ const router = createBrowserRouter([
       {
         path: "editor",
         element: <Editor />,
+      },
+      {
+        path: "concepts",
+        element: <RefTime />,
+      },
+      {
+        path: "chatroom",
+        element: <ChatRoom />,
+      },
+      {
+        path: "flex",
+        element: <Flex />,
+      },
+      {
+        path: "grid",
+        element: <Grid />,
+      },
+      {
+        path: "float",
+        element: <Float />,
+      },
+      {
+        path: "2column",
+        element: <TwoColumn />,
       },
     ],
   },

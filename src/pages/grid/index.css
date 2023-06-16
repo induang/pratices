@@ -1,0 +1,31 @@
+.my-grid {
+	display: grid;
+	gap: 2px;
+	grid-template-columns: 200px 3fr 2fr;
+	grid-template-areas: 
+	"header header header"
+	"left-sidebar contentarea right-sidebar"
+	"footer footer footer";
+	grid-auto-rows: minmax(50px, auto);
+}
+.my-grid-item {
+	background-color: aqua;
+}
+
+.header {
+ grid-area: header;
+}
+
+.left-sidebar {
+	grid-area: left-sidebar;
+}
+
+.content {
+	grid-area: contentarea;
+}
+.rigth-sidebar {
+	grid-area: right-sidebar;
+}
+.footer {
+	grid-area: footer;
+}
