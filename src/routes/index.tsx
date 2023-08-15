@@ -12,6 +12,10 @@ import Flex from "../pages/flex";
 import Grid from "../pages/grid";
 import Float from "../pages/float";
 import TwoColumn from "../pages/2column";
+import Fixed from "../pages/fixed";
+import Multiple from "../pages/multiple";
+import CSS from "../pages/css";
+import ReactContext from "../pages/ReactContext";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +66,22 @@ const router = createBrowserRouter([
       {
         path: "2column",
         element: <TwoColumn />,
+      },
+      {
+        path: "fixed",
+        element: <Fixed />,
+      },
+      {
+        path: "multi",
+        element: <Multiple />,
+      },
+      {
+        path: "css",
+        element: <CSS />,
+      },
+      {
+        path: "context",
+        element: <ReactContext />,
       },
     ],
   },

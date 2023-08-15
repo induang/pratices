@@ -1,4 +1,4 @@
-export default () => {
+export default function TabIndex() {
   return (
     <>
       <div tabIndex={1} className="bg-slate-300 w-24 h-24 m-auto"></div>
@@ -8,4 +8,4 @@ export default () => {
       <div tabIndex={2} className="bg-red-300 w-32 h-32 m-auto mt-4"></div>
     </>
   );
-};
+}

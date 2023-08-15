@@ -1,0 +1,12 @@
+.a-container {
+	font-size: 2vw;
+	column-count: 3;
+	column-gap: 20px;
+	column-rule: 2px solid red;
+}
+
+.a-spanner {
+	background-color: aqua;
+	column-span: all;
+	margin: 5px 0;
+}
