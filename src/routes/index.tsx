@@ -6,6 +6,7 @@ import DragNDrop from "../pages/DragNDrop";
 import Editor from "../pages/Editor";
 import FormEvent from "../pages/FormEvent";
 import TabIndex from "../pages/TabIndex";
+import DaisyMenu from "../pages/DaisyMenu";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,7 @@ const router = createBrowserRouter([
         path: "editor",
         element: <Editor />,
       },
+      { path: "menu", element: <DaisyMenu /> },
     ],
   },
 ]);
